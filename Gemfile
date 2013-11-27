@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 gem 'rails', '>= 4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 gem 'bootstrap-sass', '2.3.2.0'
 
 #group :doc do
@@ -30,6 +29,11 @@ gem 'jbuilder', '1.0.2'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
+end
+
+
+group :development,:test do
+gem 'sqlite3'
 end
 
 group :production do
