@@ -1,0 +1,78 @@
+/* Home Page styling */
+
+html, body {
+  height: 90%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:15px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  width: 30%;
+    margin-left: auto;
+    margin-right: auto; 
+
+   position: relative;
+  margin-top: -10px; /* negative value of footer height */
+  height: 10px;
+  clear:both;
+ border-top: 1px solid #a9a9a9;
+
+  text-align: center;
+} 
+
+/*.footer{
+  margin-top: 55px;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+}*/
+
+.container{
+  padding-top: 20px;
+}
+
+.category{
+text-align: center;
+//width: 80px;
+//height: 80px;
+
+
+.img_category{
+  opacity: 0.8;
+ //height: 80%;
+
+  height: 130px;
+  border:1px solid;
+border-radius:20%;
+  //border-radius: 100%;
+}
+.img_category:hover{
+  opacity: 1;
+}
+}
+
+#logo:hover{
+  color: #ffa500;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+  font-style: epic;
+  font-size: 18px;
+  //font-weight: bold;
+  color: black;
+
+}
+
+
+
