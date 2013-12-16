@@ -4,7 +4,9 @@ PersonalWebsite::Application.routes.draw do
   match '/projects',    to: 'static_pages#projects',    via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/challenges', to: 'static_pages#challenges', via: 'get'
-
+  match '/achievements', to: 'static_pages#achievements', via: 'get'
+  match '/impossible_list', to:  'static_pages#impossible_list', via: 'get'
+  match '/what_am_I_doing_now', to: 'static_pages#what_doing_now', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

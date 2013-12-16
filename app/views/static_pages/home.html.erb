@@ -2,15 +2,15 @@
       <!-- Example row of columns -->
       <div class="row-fluid">
         <div class=" span4 category">
-          <%= image_tag("projects.jpg", :class => "img_category")%>
+          <%= link_to image_tag("projects.jpg", :class => "img_category"), projects_path%>
           <h2>Projects</h2>
         </div>
         <div class=" span4 category">
-          <%= image_tag("abhishek.jpg", :class => "img_category")%>
+          <%= link_to image_tag("abhishek.jpg", :class => "img_category") ,"/what_am_I_doing_now"%>
           <h2>What am I doing right now ?? </h2>
         </div>
         <div class=" span4 category">
-          <%= image_tag("challenges.jpg", :class => "img_category") %>
+          <%= link_to image_tag("challenges.jpg", :class => "img_category"), challenges_path %>
           <h2>Challenges</h2>
         </div>    
       </div>
@@ -20,13 +20,13 @@
           <h2>Photography</h2>
         </div>
         <div class=" span4 category">
-          <%= image_tag("achievements.jpg", :class => "img_category") %>
+          <%= link_to image_tag("achievements.jpg", :class => "img_category"), achievements_path %>
           <h2>Achievements</h2>
         </div>  
 
                <div class=" span4 category">
-          <%= image_tag("bucket_list.jpg", :class => "img_category") %>
-          <h2>My Bucket List</h2>
+          <%=link_to image_tag("bucket_list.jpg", :class => "img_category"), "/impossible_list" %>
+          <h2>My Impossible List</h2>
         </div>    
       </div>
    
