@@ -8,9 +8,33 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
  *= require custom
  *= require home
  *= require static_pages
  *= require_tree .
+ *= require_self
  */
+
+
+.navbar .nav>li>a {
+ padding: 0 15px 15px;
+}
+
+#logo{
+  text-transform: none;
+  padding-top: 0; 
+}
+
+@font-face{
+  font-family: 'Clear sans';
+  src: url('ClearSans-Regular.ttf');
+}
+
+body{
+  font-family: Clear sans, sans-serif;
+  /*font-size: 16px;*/
+}
+
+sup {
+  color: #000;
+}
