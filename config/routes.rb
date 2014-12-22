@@ -3,6 +3,7 @@ PersonalWebsite::Application.routes.draw do
   root  'static_pages#home'
   match '/projects',    to: 'static_pages#projects',    via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'
+  match '/manifesto',   to: 'static_pages#manifesto',   via: 'get'
   match '/challenges', to: 'static_pages#challenges', via: 'get'
   match '/achievements', to: 'static_pages#achievements', via: 'get'
   match '/impossible_list', to:  'static_pages#impossible_list', via: 'get'

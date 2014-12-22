@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def challenges
   end
+
+  def manifesto
+  end
 end
