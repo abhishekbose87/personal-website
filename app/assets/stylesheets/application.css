@@ -16,13 +16,13 @@
  */
 
 
-.navbar .nav>li>a {
- padding: 0 15px 15px;
+#bs-example-navbar-collapse-1 .nav>li>a {
+ padding: 15px 15px 15px;
 }
 
 #logo{
   text-transform: none;
-  padding-top: 0; 
+  padding-top: 15px;
 }
 
 @font-face{

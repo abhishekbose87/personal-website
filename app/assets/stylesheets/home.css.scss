@@ -11,7 +11,10 @@ html, body {
 article{
     width: 50%;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    h5{
+      text-align: center;
+    }
 }
 
 #main {
@@ -22,7 +25,7 @@ article{
 .footer {
   width: 30%;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 
    position: relative;
   margin-top: -10px; /* negative value of footer height */
@@ -32,7 +35,7 @@ article{
  border-top: 1px solid #a9a9a9;
 
   text-align: center;
-} 
+}
 
 /*.footer{
   margin-top: 55px;
@@ -87,5 +90,11 @@ h2{
 
 }
 
-
-
+#past-updates-section{
+  // background-color: #835C3B;
+  // margin: 50px 50px;
+  padding: 10px 0px;
+  background: #FFF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFF , #835C3B); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFF , #835C3B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

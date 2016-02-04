@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '>= 4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'bootstrap-sass', '2.3.2.0'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails', '>= 3.2'
 
 #group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -20,7 +21,7 @@ gem 'bootstrap-sass', '2.3.2.0'
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
-gem 'sass-rails', '>= 4.0.0'
+# gem 'sass-rails', '>= 4.0.0'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '3.0.4'
