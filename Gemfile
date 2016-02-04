@@ -22,11 +22,10 @@ gem 'sass-rails', '>= 3.2'
 # gem 'capistrano', group: :development
 
 # gem 'sass-rails', '>= 4.0.0'
-gem 'uglifier', '2.1.1'
+gem 'uglifier', '~> 2.7'
 gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
-gem 'jbuilder', '1.0.2'
 gem 'newrelic_rpm'
 gem 'therubyracer'
 group :doc do
